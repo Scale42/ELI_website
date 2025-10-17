@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gpuGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- GPU Card Base -->
+  <rect x="10" y="30" width="60" height="35" rx="3" fill="url(#gpuGradient)" stroke="#333" stroke-width="2"/>
+  
+  <!-- Fan -->
+  <circle cx="35" cy="47.5" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="35" cy="47.5" r="3" fill="#333"/>
+  
+  <!-- Heatsink Lines -->
+  <line x1="50" y1="35" x2="65" y2="35" stroke="#333" stroke-width="2"/>
+  <line x1="50" y1="40" x2="65" y2="40" stroke="#333" stroke-width="2"/>
+  <line x1="50" y1="45" x2="65" y2="45" stroke="#333" stroke-width="2"/>
+  <line x1="50" y1="50" x2="65" y2="50" stroke="#333" stroke-width="2"/>
+  <line x1="50" y1="55" x2="65" y2="55" stroke="#333" stroke-width="2"/>
+  <line x1="50" y1="60" x2="65" y2="60" stroke="#333" stroke-width="2"/>
+  
+  <!-- Connectors -->
+  <rect x="12" y="15" width="8" height="12" rx="1" fill="#333"/>
+  <rect x="22" y="15" width="8" height="12" rx="1" fill="#333"/>
+</svg>

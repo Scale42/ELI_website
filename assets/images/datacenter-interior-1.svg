@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="floorGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d3748;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a202c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="rackGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a5568;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d3748;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ceilingGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#718096;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a5568;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#floorGradient)"/>
+  
+  <!-- Perspective Floor -->
+  <polygon points="0,350 800,350 700,500 100,500" fill="#1a202c" opacity="0.8"/>
+  
+  <!-- Ceiling -->
+  <polygon points="0,0 800,0 700,150 100,150" fill="url(#ceilingGradient)"/>
+  
+  <!-- Server Racks - Left Side -->
+  <g transform="translate(50, 180)">
+    <!-- Rack 1 -->
+    <rect x="0" y="0" width="60" height="150" fill="url(#rackGradient)" rx="3"/>
+    <rect x="5" y="5" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    <rect x="5" y="20" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    <rect x="5" y="35" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    <rect x="5" y="50" width="50" height="10" fill="#2b6cb0" opacity="0.6"/>
+    <rect x="5" y="65" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    <rect x="5" y="80" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    
+    <!-- LED Status Lights -->
+    <circle cx="52" cy="10" r="2" fill="#00ff00"/>
+    <circle cx="52" cy="25" r="2" fill="#00ff00"/>
+    <circle cx="52" cy="40" r="2" fill="#ffff00"/>
+    <circle cx="52" cy="55" r="2" fill="#ff0000"/>
+    <circle cx="52" cy="70" r="2" fill="#00ff00"/>
+    <circle cx="52" cy="85" r="2" fill="#00ff00"/>
+  </g>
+  
+  <!-- Server Racks - Left Side -->
+  <g transform="translate(150, 180)">
+    <rect x="0" y="0" width="60" height="150" fill="url(#rackGradient)" rx="3"/>
+    <rect x="5" y="5" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    <rect x="5" y="20" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    <rect x="5" y="35" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    <rect x="5" y="50" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    <rect x="5" y="65" width="50" height="10" fill="#2b6cb0" opacity="0.6"/>
+    <rect x="5" y="80" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    
+    <circle cx="52" cy="10" r="2" fill="#00ff00"/>
+    <circle cx="52" cy="25" r="2" fill="#00ff00"/>
+    <circle cx="52" cy="40" r="2" fill="#00ff00"/>
+    <circle cx="52" cy="55" r="2" fill="#00ff00"/>
+    <circle cx="52" cy="70" r="2" fill="#ffff00"/>
+    <circle cx="52" cy="85" r="2" fill="#00ff00"/>
+  </g>
+  
+  <!-- Server Racks - Right Side -->
+  <g transform="translate(590, 180)">
+    <rect x="0" y="0" width="60" height="150" fill="url(#rackGradient)" rx="3"/>
+    <rect x="5" y="5" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    <rect x="5" y="20" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    <rect x="5" y="35" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    <rect x="5" y="50" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    <rect x="5" y="65" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    <rect x="5" y="80" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    
+    <circle cx="52" cy="10" r="2" fill="#00ff00"/>
+    <circle cx="52" cy="25" r="2" fill="#00ff00"/>
+    <circle cx="52" cy="40" r="2" fill="#00ff00"/>
+    <circle cx="52" cy="55" r="2" fill="#00ff00"/>
+    <circle cx="52" cy="70" r="2" fill="#00ff00"/>
+    <circle cx="52" cy="85" r="2" fill="#00ff00"/>
+  </g>
+  
+  <g transform="translate(690, 180)">
+    <rect x="0" y="0" width="60" height="150" fill="url(#rackGradient)" rx="3"/>
+    <rect x="5" y="5" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    <rect x="5" y="20" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    <rect x="5" y="35" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    <rect x="5" y="50" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    <rect x="5" y="65" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    <rect x="5" y="80" width="50" height="10" fill="#2b6cb0" opacity="0.8"/>
+    
+    <circle cx="52" cy="10" r="2" fill="#00ff00"/>
+    <circle cx="52" cy="25" r="2" fill="#00ff00"/>
+    <circle cx="52" cy="40" r="2" fill="#00ff00"/>
+    <circle cx="52" cy="55" r="2" fill="#ffff00"/>
+    <circle cx="52" cy="70" r="2" fill="#00ff00"/>
+    <circle cx="52" cy="85" r="2" fill="#00ff00"/>
+  </g>
+  
+  <!-- Cooling Systems -->
+  <rect x="300" y="150" width="200" height="30" fill="#4299e1" opacity="0.7" rx="15"/>
+  <text x="400" y="170" text-anchor="middle" fill="white" font-size="12" font-weight="bold">LIQUID COOLING SYSTEM</text>
+  
+  <!-- Cable Management -->
+  <rect x="250" y="180" width="300" height="20" fill="#2d3748" opacity="0.8"/>
+  <line x1="260" y1="190" x2="540" y2="190" stroke="#4299e1" stroke-width="2"/>
+  <line x1="260" y1="185" x2="540" y2="185" stroke="#48bb78" stroke-width="2"/>
+  <line x1="260" y1="195" x2="540" y2="195" stroke="#ed8936" stroke-width="2"/>
+  
+  <!-- Lighting -->
+  <ellipse cx="200" cy="100" rx="80" ry="20" fill="rgba(255, 255, 255, 0.3)"/>
+  <ellipse cx="400" cy="80" rx="100" ry="25" fill="rgba(255, 255, 255, 0.3)"/>
+  <ellipse cx="600" cy="100" rx="80" ry="20" fill="rgba(255, 255, 255, 0.3)"/>
+  
+  <!-- Emergency Lighting -->
+  <rect x="10" y="20" width="15" height="8" fill="#ef4444" rx="2"/>
+  <rect x="775" y="20" width="15" height="8" fill="#ef4444" rx="2"/>
+  
+  <!-- Floor Grid Pattern -->
+  <g opacity="0.3">
+    <line x1="0" y1="350" x2="800" y2="350" stroke="#4a5568" stroke-width="1"/>
+    <line x1="0" y1="380" x2="800" y2="380" stroke="#4a5568" stroke-width="1"/>
+    <line x1="0" y1="410" x2="800" y2="410" stroke="#4a5568" stroke-width="1"/>
+    <line x1="0" y1="440" x2="800" y2="440" stroke="#4a5568" stroke-width="1"/>
+    <line x1="100" y1="350" x2="100" y2="500" stroke="#4a5568" stroke-width="1"/>
+    <line x1="200" y1="350" x2="150" y2="500" stroke="#4a5568" stroke-width="1"/>
+    <line x1="300" y1="350" x2="250" y2="500" stroke="#4a5568" stroke-width="1"/>
+    <line x1="400" y1="350" x2="350" y2="500" stroke="#4a5568" stroke-width="1"/>
+    <line x1="500" y1="350" x2="450" y2="500" stroke="#4a5568" stroke-width="1"/>
+    <line x1="600" y1="350" x2="550" y2="500" stroke="#4a5568" stroke-width="1"/>
+    <line x1="700" y1="350" x2="650" y2="500" stroke="#4a5568" stroke-width="1"/>
+  </g>
+</svg>

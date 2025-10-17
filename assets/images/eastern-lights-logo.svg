@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#F7931E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD23F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sun/Light Symbol -->
+  <circle cx="30" cy="30" r="12" fill="url(#logoGradient)"/>
+  <path d="M30 6 L30 18 M30 42 L30 54 M6 30 L18 30 M42 30 L54 30 M12.9 12.9 L21.2 21.2 M38.8 38.8 L47.1 47.1 M12.9 47.1 L21.2 38.8 M38.8 21.2 L47.1 12.9" 
+        stroke="url(#logoGradient)" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Text -->
+  <text x="70" y="25" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#2C3E50">
+    Eastern
+  </text>
+  <text x="70" y="45" font-family="Inter, sans-serif" font-size="18" font-weight="300" fill="#2C3E50">
+    Lights
+  </text>
+</svg>

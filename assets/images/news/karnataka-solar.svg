@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="solarFarmGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky -->
+  <rect width="400" height="120" fill="#87ceeb"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="40" r="25" fill="#fbbf24"/>
+  
+  <!-- Solar Panels -->
+  <rect x="20" y="120" width="80" height="40" fill="url(#solarFarmGradient)" transform="skewY(-5)"/>
+  <rect x="120" y="110" width="80" height="40" fill="url(#solarFarmGradient)" transform="skewY(-5)"/>
+  <rect x="220" y="115" width="80" height="40" fill="url(#solarFarmGradient)" transform="skewY(-5)"/>
+  <rect x="320" y="125" width="60" height="35" fill="url(#solarFarmGradient)" transform="skewY(-5)"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="160" width="400" height="40" fill="#22c55e"/>
+  
+  <!-- Text Overlay -->
+  <rect x="10" y="10" width="200" height="30" fill="rgba(255,255,255,0.9)" rx="5"/>
+  <text x="110" y="30" text-anchor="middle" fill="#1f2937" font-size="14" font-weight="bold">Karnataka Solar Farm</text>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wind Turbine Tower -->
+  <rect x="29" y="15" width="2" height="40" fill="#d1d5db"/>
+  
+  <!-- Turbine Hub -->
+  <circle cx="30" cy="15" r="3" fill="#374151"/>
+  
+  <!-- Turbine Blades -->
+  <path d="M30 15 L20 5" stroke="#f3f4f6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M30 15 L40 8" stroke="#f3f4f6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M30 15 L35 25" stroke="#f3f4f6" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Blade Details -->
+  <ellipse cx="25" cy="10" rx="8" ry="2" fill="#e5e7eb" transform="rotate(-35 25 10)"/>
+  <ellipse cx="35" cy="11.5" rx="8" ry="2" fill="#e5e7eb" transform="rotate(25 35 11.5)"/>
+  <ellipse cx="32.5" cy="20" rx="8" ry="2" fill="#e5e7eb" transform="rotate(90 32.5 20)"/>
+  
+  <!-- Base -->
+  <rect x="25" y="55" width="10" height="3" fill="#6b7280"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="58" width="60" height="2" fill="#22c55e"/>
+  
+  <!-- Wind Lines -->
+  <path d="M5 20 Q10 18 15 20" fill="none" stroke="#94a3b8" stroke-width="1" opacity="0.6"/>
+  <path d="M5 25 Q10 23 15 25" fill="none" stroke="#94a3b8" stroke-width="1" opacity="0.6"/>
+  <path d="M5 30 Q10 28 15 30" fill="none" stroke="#94a3b8" stroke-width="1" opacity="0.6"/>
+</svg>

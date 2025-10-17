@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">E.L.I. — Eastern Lights Industries</title>
+  <desc id="desc">Crisp vector logo with a teal geometric network mark and clean typography.</desc>
+
+  <defs>
+    <!-- Brand colors -->
+    <style>
+      :root {
+        --eli-teal: #24B6B0;  /* tweak if you need closer match */
+        --eli-black: #111111;
+      }
+      .teal { stroke: var(--eli-teal); fill: none; }
+      .node { fill: var(--eli-teal); stroke: none; }
+      .label-teal { fill: var(--eli-teal); }
+      .label-black { fill: var(--eli-black); }
+    </style>
+    <!-- Node size scales with logo -->
+    <circle id="node" r="5.5" class="node"/>
+  </defs>
+
+  <!-- Left mark: abstract network (constructed geometry for clean SVG) -->
+  <g id="mark" transform="translate(65,42) scale(1.1)">
+    <!-- edges -->
+    <g class="teal" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <!-- outer shape -->
+      <path d="M25,22 L95,8 L168,36 L190,108 L150,180 L66,196 L14,140 Z"/>
+      <!-- inner chords -->
+      <path d="M25,22 L66,196 M95,8 L150,180 M168,36 L14,140 M95,8 L66,196 M25,22 L150,180"/>
+      <path d="M66,196 L190,108 M25,22 L190,108 M95,8 L14,140"/>
+      <!-- lattice diagonals -->
+      <path d="M66,196 L168,36 M150,180 L25,22"/>
+    </g>
+    <!-- nodes -->
+    <g transform="translate(0,0)">
+      <use href="#node" x="25"  y="22"/>
+      <use href="#node" x="95"  y="8"/>
+      <use href="#node" x="168" y="36"/>
+      <use href="#node" x="190" y="108"/>
+      <use href="#node" x="150" y="180"/>
+      <use href="#node" x="66"  y="196"/>
+      <use href="#node" x="14"  y="140"/>
+    </g>
+  </g>
+
+  <!-- Wordmark -->
+  <g id="wordmark" transform="translate(300,85)">
+    <!-- Top line: E.L.I. -->
+    <text x="0" y="0" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif" font-weight="700"
+          font-size="72" letter-spacing="3" class="label-teal">E.L.I.</text>
+    <!-- Bottom line: EASTERN LIGHTS INDUSTRIES -->
+    <text x="0" y="65" font-family="Inter, Segoe UI, Arial, Helvetica, sans-serif" font-weight="800"
+          font-size="36" letter-spacing="1" class="label-black">EASTERN LIGHTS INDUSTRIES</text>
+  </g>
+</svg>
