@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+# Sitemap location (replace BASE_URL with your actual site URL)
+Sitemap: BASE_URL/sitemap.xml

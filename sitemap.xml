@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Replace BASE_URL with your live site URL, e.g. https://yourusername.github.io/repository-name -->
+    <url>
+        <loc>BASE_URL/</loc>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>BASE_URL/index.html</loc>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>BASE_URL/ai-computing.html</loc>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>BASE_URL/renewable-energy.html</loc>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>BASE_URL/community-benefits.html</loc>
+        <priority>0.64</priority>
+    </url>
+    <url>
+        <loc>BASE_URL/development-plan.html</loc>
+        <priority>0.64</priority>
+    </url>
+</urlset>
