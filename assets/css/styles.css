@@ -318,7 +318,7 @@ body::after {
     left: 40px;
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
 
 .logo {
@@ -352,8 +352,9 @@ body::after {
     letter-spacing: 0.5px;
     transition: all 0.3s ease;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 95px;
+    top: 50%;
+    transform: translateY(-50%);
     white-space: nowrap;
     padding: 8px 0;
 }
@@ -368,7 +369,22 @@ body::after {
 }
 
 /* Responsive adjustments for company name */
-@media (max-width: 1024px) {
+@media (min-width: 901px) {
+    .logo-container {
+        display: flex !important;
+        align-items: center !important;
+    }
+    
+    .centered-company-name {
+        position: static !important;
+        left: auto !important;
+        top: auto !important;
+        transform: none !important;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 901px) {
     .centered-company-name {
         font-size: 11px;
     }
@@ -392,6 +408,7 @@ body::after {
     .centered-company-name {
         position: static !important;
         left: auto !important;
+        top: auto !important;
         transform: none !important;
         font-size: 11px;
         text-align: center;
@@ -405,6 +422,7 @@ body::after {
     .nav-menu {
         position: static !important;
         right: auto !important;
+        bottom: auto !important;
         justify-content: center;
         gap: 25px;
         order: 3;
